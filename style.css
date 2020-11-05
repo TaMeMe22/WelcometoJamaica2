@@ -1,0 +1,235 @@
+body{
+    background-image: linear-gradient(#009C37, #FED200, #FED200, #009C37, #009C37, #FED200 );
+    background-repeat: inherit;
+    margin:0;
+    padding:0;
+}
+#hero{
+    background-image: url(assets/montego-bay-all-inclusive.jpg);
+    width: 95rem;
+    height: 40rem;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    position: relative;
+}
+#logo{
+    width:3rem;
+    
+}
+ 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    text-decoration: none;
+}
+.menu{
+    float: right;
+    display: flex;
+    padding-left: 15rem;
+}
+ul{
+    display: flex;
+    padding-left: 30rem;
+}
+li{
+    padding: 1rem;
+    
+    list-style: none;
+}
+#welcome-heading{
+    padding-top: 14rem;
+    display: block;
+    text-align: center;
+    
+}
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+p{
+    color:black;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+.row {
+    display: flex;
+  }
+.column {
+    flex: 50%;
+    padding : 10px;
+    margin-top: 90px;
+    margin-left: 35px;
+    margin-right: 10px;
+    height: 625px; 
+    border-radius: 8px;  
+    width: 80%;  
+}
+.column2{
+    margin-top: 550px;
+}
+
+div.card {
+    width: 600px;
+    box-shadow: 0 4px 8px 0 #FED200, 0 6px 20px 0 #009C37;
+    text-align: center;
+  }
+  
+  div.header {
+    background-color: #FED200, #009C37;
+    color: #009C37;
+    padding: 10px;
+    
+  }
+  
+  div.container {
+    padding: 10px;
+  }
+  h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #FED200; 
+    line-height: 0.1em;
+    margin: 50px 0 20px; 
+ } 
+ 
+ h2 span { 
+     background:transparent; 
+     padding:0 10px; 
+ }
+.oceanfront{
+    width: 425px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+.oceancontainer{
+    padding: 10px;
+  }
+  .row2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+.columnocean {
+    flex: 50%;
+    padding : 10px;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 10px;
+    height: 600px; 
+    border-radius: 8px;  
+    width: 25%;  
+}
+.columnocean2 {
+    flex: 50%;
+    padding : 10px;
+    margin-top: -450px;
+    margin-left: 515px;
+    margin-right: 10px;
+    height: 625px; 
+    border-radius: 8px;  
+    width: 25%;
+} 
+.columnocean3 {
+    flex: 50%;
+    padding : 10px;
+    margin-top: -622px;
+    margin-left: 1040px;
+    margin-right: 10px;
+    height: 625px; 
+    border-radius: 8px;  
+    width: 25%;
+} 
+
+.thingstodo{
+    width: 425px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  
+.funcontainer{
+    padding: 10px;
+  }
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -20px;
+  }
+.columndo {
+    flex: 50%;
+    padding : 10px;
+    margin-top: -70px;
+    margin-left: 300px;
+    margin-right: 10px;
+    height: 625px; 
+    border-radius: 8px;  
+    width: 25%;  
+}
+.columndo2{
+    flex: 50%;
+    padding : 10px;
+    margin-top: -505px;
+    margin-left: 515px;
+    margin-right: 10px;
+    height: 625px; 
+    border-radius: 8px;  
+    width: 25%; 
+} 
+div.card2 {
+    width: 1300px;
+    box-shadow: 0 4px 8px 0 #009C37, 0 6px 20px 0 #FED200;
+    text-align: center;
+    margin:0 25px 20px 100px;
+  }
+  
+  div.romantic {
+    background-color:transparent;
+    color: #FED200;
+    padding: 10px;
+    font-size: 40px;
+    justify-content: space-between;
+  }
+  
+  div.unique {
+    padding: 10px;
+  }
+  form {
+    margin-top: 0;
+    margin-left: 40rem;
+    width: 350px;
+  }
+  .h3form{
+      margin-left: 40rem;
+  }
+ .footerimg{
+   width: 10%;
+   padding-top: 50px;
+   padding-left: 75px;
+    float: left;
+ }
+ .footerpara{
+   font-size: 40px;
+   margin-top: 55px;
+   margin-left: 15px;
+   float: left;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+
+
+@media only screen and (min-width: 1200px){
+
+}
+@media only screen and (min-width: 600px){
+  
+}
+@media only screen and (min-width: 300px){
+  
+}
